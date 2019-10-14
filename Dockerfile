@@ -1,4 +1,4 @@
-FROM nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04
+FROM nvidia/cuda:10.1-cudnn7-runtime-ubuntu16.04
 
 #  $ docker build . -t continuumio/anaconda3:latest -t continuumio/anaconda3:5.3.0
 #  $ docker run --rm -it continuumio/anaconda3:latest /bin/bash
